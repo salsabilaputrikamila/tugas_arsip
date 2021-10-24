@@ -5,10 +5,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="main-content">
         <section class="section">
           <div class="section-header">
-            <h1>Arsip</h1>
+            <h1 class="section-title">Arsip Surat / Lihat</h1>
             <div class="section-header-breadcrumb">
               <div class="breadcrumb-item active"><a href="#">Menu</a></div>
-              <div class="breadcrumb-item">Detail Data Arsip</div>
+              <div class="breadcrumb-item">Lihat Data Arsip</div>
             </div>
           </div>
 
@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="row">
           <div class="col">
               <div class ="card card-primary">
-                    <div class="card-header"><h3>Detail Data Arsip</h3></div>
+                    <div class="card-header"><h3>Lihat Data Arsip</h3></div>
                     <div class ="card-body">
 
                     <!-- Main content -->
