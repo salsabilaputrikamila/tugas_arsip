@@ -5,10 +5,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="main-content">
         <section class="section">
           <div class="section-header">
-            <h1>Arsip</h1>
+            <h1 class="section-title">Arsip</h1>
             <div class="section-header-breadcrumb">
               <div class="breadcrumb-item active"><a href="#">Menu</a></div>
-              <div class="breadcrumb-item">Form Edit Arsip</div>
+              <div class="breadcrumb-item">Form Edit Data Arsip</div>
             </div>
           </div>
 
@@ -67,8 +67,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       </div>
                     </div>
                     <div class="card-footer">
-                      <button type="submit" class="btn btn-warning">Submit</button>
-                      <a href="<?= base_url("menu/index") ?>" class="btn btn-primary float-right">
+                      <button type="submit" class="btn btn-warning float-right">Submit</button>
+
+                      <a href="<?= base_url("menu/index") ?>" class="btn btn-primary float-left">
                         <i class="fa fa-arrow-left" aria-hidden="true"></i>
                         <span>Kembali</span>
                       </a>
